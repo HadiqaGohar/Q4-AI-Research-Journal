@@ -1,3 +1,5 @@
+
+
 ![Revolutionizing Generative AI](https://jktech.com/wp-content/uploads/2024/11/Revolutionizing-Generative-AI.png)
 
 # What is Generative AI? 🤖✨
@@ -8,8 +10,9 @@ Think of it like a tech buddy 🤝 that’s always ready to support you — no s
 
 Generative AI leverages **Generative Adversarial Networks (GANs)**, which consist of two neural networks working together:
 
-- **Generator**: Creates new content 🎨.
-- **Discriminator**: Evaluates and gives feedback to the generator to improve the content until it’s indistinguishable from real data 🔍.
+* **Generator**: Creates new content 🎨.
+* **Discriminator**: Evaluates and gives feedback to the generator to improve the content until it’s indistinguishable from real data 🔍.
 
+---
 
-https://medium.com/@tasleemhadiqa76/unleashing-creativity-the-power-and-potential-of-generative-ai-affc4f46081e
+📖 **[Read Full Blog Here](https://medium.com/@tasleemhadiqa76/unleashing-creativity-the-power-and-potential-of-generative-ai-affc4f46081e)**
