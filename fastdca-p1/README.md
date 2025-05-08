@@ -96,3 +96,9 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 * Visit `http://localhost:8000/items/{item_id}?q=somequery` (replace `{item_id}` with any number) to get item details.
 
 
+---
+
+## 📝 Medium Blog
+
+📖 Read the complete tutorial on Medium here:  
+👉 [Building a Simple API with FastAPI – A Beginner's Guide](https://medium.com/@tasleemhadiqa76/building-a-simple-api-with-fastapi-a-beginners-guide-355bfe3c1dba)
