@@ -1,4 +1,3 @@
-Here's the updated version with the pictures included. Make sure the image links are correct and accessible.
 
 ````markdown
 # FastAPI Project 🚀
