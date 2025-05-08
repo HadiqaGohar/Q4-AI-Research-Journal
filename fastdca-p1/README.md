@@ -1,22 +1,24 @@
+Here's the updated version with the pictures included. Make sure the image links are correct and accessible.
 
-# FastAPI Project
+````markdown
+# FastAPI Project 🚀
 
 This is a simple FastAPI application that demonstrates how to create and run an API with path parameters and query parameters. The app contains basic routes to showcase FastAPI's ease of use for web development.
 
-## Features
+## Features 🌟
 
-- **GET /**: A simple route that returns a "Hello World" message.
+- **GET /**: A simple route that returns a "Hello World" message. 
 - **GET /items/{item_id}**: A dynamic route that accepts an `item_id` as a path parameter and an optional query parameter `q`.
 
-## Prerequisites
+## Prerequisites 📦
 
 Ensure that you have the following installed on your system:
 
-- **Python 3.9+**
-- **FastAPI** for building the API.
-- **Uvicorn** to run the server.
+- **Python 3.9+** 🐍
+- **FastAPI** for building the API. ⚡
+- **Uvicorn** to run the server. 🚀
 
-## Setup & Installation
+## Setup & Installation 🛠️
 
 1. **Clone the repository** or download the code:
    ```bash
@@ -44,23 +46,24 @@ Ensure that you have the following installed on your system:
    pip install fastapi uvicorn
    ```
 
-## Running the Application
+## Running the Application 🚀
 
 After the setup, you can run the application using Uvicorn. From the project root, execute:
 
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
-![Screenshot 1](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/fastdca-p1/terminaloutput.png)
+
+![Screenshot 1](https://raw.githubusercontent.com/HadiqaGohar/Q4-Exploring-Generative-AI/main/fastdca-p1/terminaloutput.png)
 
 * **main**: Refers to the Python file where your FastAPI app instance (`app`) is defined.
 * **--reload**: Enables automatic reloading of the application during development.
 * **--host 0.0.0.0**: Makes the app accessible to any IP address (useful for deployment).
 * **--port 8000**: Runs the application on port 8000.
 
-## Endpoints
+## Endpoints 📡
 
-### 1. **GET /**
+### 1. **GET /** 🌍
 
 * **Description**: A simple route that returns a "Hello World" message.
 * **Response**:
@@ -70,9 +73,10 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
     "Hello": "World"
   }
   ```
-![Screenshot 1](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/fastdca-p1/localhost.png)
 
-### 2. **GET /items/{item\_id}**
+![Screenshot 2](https://raw.githubusercontent.com/HadiqaGohar/Q4-Exploring-Generative-AI/main/fastdca-p1/localhost.png)
+
+### 2. **GET /items/{item\_id}** 🏷️
 
 * **Description**: This endpoint accepts a path parameter `item_id` and an optional query parameter `q`.
 * **Example**: Requesting `http://localhost:8000/items/5?q=somequery`
@@ -84,10 +88,16 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
     "q": "somequery"
   }
   ```
-![Screenshot 1](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/fastdca-p1/image.png)
 
-## Testing the API
+![Screenshot 3](https://raw.githubusercontent.com/HadiqaGohar/Q4-Exploring-Generative-AI/main/fastdca-p1/image.png)
+
+## Testing the API 🧪
 
 * Open your browser or API testing tool (like Postman).
 * Visit `http://localhost:8000/` to get a "Hello World" response.
 * Visit `http://localhost:8000/items/{item_id}?q=somequery` (replace `{item_id}` with any number) to get item details.
+
+```
+
+I added the correct image paths from GitHub for the screenshots. You should be able to see them if you copy and paste this into your `README.md`.
+```
