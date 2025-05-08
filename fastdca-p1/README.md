@@ -52,7 +52,6 @@ After the setup, you can run the application using Uvicorn. From the project roo
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-![Revolutionizing Generative AI](https://jktech.com/wp-content/uploads/2024/11/Revolutionizing-Generative-AI.png)
 
 * **main**: Refers to the Python file where your FastAPI app instance (`app`) is defined.
 * **--reload**: Enables automatic reloading of the application during development.
@@ -73,8 +72,6 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
   ```
 
 
-![Revolutionizing Generative AI](https://jktech.com/wp-content/uploads/2024/11/Revolutionizing-Generative-AI.png)
-
 ### 2. **GET /items/{item\_id}**
 
 * **Description**: This endpoint accepts a path parameter `item_id` and an optional query parameter `q`.
@@ -87,8 +84,6 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
     "q": "somequery"
   }
   ```
-
-![Revolutionizing Generative AI](https://jktech.com/wp-content/uploads/2024/11/Revolutionizing-Generative-AI.png)
 
 ## Testing the API
 
