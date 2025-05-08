@@ -98,5 +98,4 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 ```
 
-I added the correct image paths from GitHub for the screenshots. You should be able to see them if you copy and paste this into your `README.md`.
-```
+
