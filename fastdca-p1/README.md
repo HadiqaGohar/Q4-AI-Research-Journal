@@ -51,7 +51,7 @@ After the setup, you can run the application using Uvicorn. From the project roo
 ```bash
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
-
+![Screenshot 1](assets/screenshot1.png)
 
 * **main**: Refers to the Python file where your FastAPI app instance (`app`) is defined.
 * **--reload**: Enables automatic reloading of the application during development.
@@ -70,7 +70,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
     "Hello": "World"
   }
   ```
-
+![Screenshot 1](assets/screenshot1.png)
 
 ### 2. **GET /items/{item\_id}**
 
@@ -84,6 +84,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
     "q": "somequery"
   }
   ```
+![Screenshot 1](assets/screenshot1.png)
 
 ## Testing the API
 
