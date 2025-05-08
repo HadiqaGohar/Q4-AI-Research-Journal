@@ -96,6 +96,4 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 * Visit `http://localhost:8000/` to get a "Hello World" response.
 * Visit `http://localhost:8000/items/{item_id}?q=somequery` (replace `{item_id}` with any number) to get item details.
 
-```
-
 
