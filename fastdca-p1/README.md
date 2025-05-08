@@ -1,6 +1,5 @@
-
-````markdown
 # FastAPI Project 🚀
+````markdown
 
 This is a simple FastAPI application that demonstrates how to create and run an API with path parameters and query parameters. The app contains basic routes to showcase FastAPI's ease of use for web development.
 
