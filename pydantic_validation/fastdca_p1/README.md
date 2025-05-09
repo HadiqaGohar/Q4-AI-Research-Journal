@@ -26,7 +26,7 @@ cd fastdca_p1
 uv venv
 source .venv/bin/activate
 uv add "fastapi[standard]"
-```
+````
 
 ### **1. Basic Pydantic Model Example 🧑‍💻**
 
@@ -68,6 +68,8 @@ uv run python pydantic_example_1.py
 id
   value is not a valid integer (type=type_error.integer)
 ```
+
+![Invalid Data Output](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/pydantic_validation/fastdca_p1/Screenshot%20from%202025-05-09%2019-17-39.png)
 
 ---
 
@@ -118,6 +120,8 @@ print(user.model_dump())
 }
 ```
 
+![Nested Models Output](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/pydantic_validation/fastdca_p1/Screenshot%20from%202025-05-09%2019-17-52.png)
+
 ---
 
 ### **3. Custom Validators 🛠️**
@@ -164,6 +168,8 @@ except ValidationError as e:
 name
   ValueError: Name must be at least 2 characters long
 ```
+
+![Custom Validator Error Output](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/pydantic_validation/fastdca_p1/Screenshot%20from%202025-05-09%2019-18-16.png)
 
 ---
 
@@ -244,8 +250,21 @@ async def chat(message: Message):
 fastapi dev main.py
 ```
 
----
+![FastAPI Server Running](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/pydantic_validation/fastdca_p1/Screenshot%20from%202025-05-09%2019-18-26.png)
+
+```
+server   Server started at http://127.0.0.1:8000
+```
+
+![FastAPI Server Documentation](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/pydantic_validation/fastdca_p1/Screenshot%20from%202025-05-09%2019-19-07.png)
+
+```
+server   Documentation at http://127.0.0.1:8000/docs
+```
+
+![FastAPI Documentation](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/blob/main/pydantic_validation/fastdca_p1/Screenshot%20from%202025-05-09%2019-19-26.png)
 
 ## **Conclusion 🎉**
 
 By following these steps, you can implement Pydantic validation in your FastAPI application for DACA’s agentic AI workflows. This approach ensures that your data is type-safe and error-free, making the system robust and reliable.
+
