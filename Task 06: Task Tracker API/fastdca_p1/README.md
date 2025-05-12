@@ -134,6 +134,13 @@ POST /tasks/
   "status": "pending"
 }
 ```
+![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2021-15-20.png)
+
+![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2021-15-28.png)
+
+#### Output
+
+![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2021-16-11.png)
 
 #### 🔍 Get Task by ID
 
