@@ -70,7 +70,7 @@ GET /
 POST /users/
 ```
 
-**Request:**
+**Request 1:**
 
 ```json
 {
@@ -80,11 +80,31 @@ POST /users/
 ```
 ![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2020-54-02.png)
 
+**Request 3:**
+
+
+```json
+{
+  "username": "gohar",
+  "email": "gohar@example.com"
+}
+```
+
+![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2020-55-02.png)
+
 #### 🔎 Get User by ID
 
 ```http
 GET /users/{user_id}
 ```
+**Output 1 :**
+
+![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2020-54-14.png)
+
+**Output 2:**
+
+![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2020-54-49.png)
+
 
 #### 📋 List All Users
 
