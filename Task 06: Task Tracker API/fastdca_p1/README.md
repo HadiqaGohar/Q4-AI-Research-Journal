@@ -37,10 +37,10 @@ uv add "fastapi[standard]"
 ## ▶️ Run the server
 
 ```bash
-uvicorn main:app --reload --port 8001
+uvicorn main:app --reload --port 8000
 ```
 
-Open in browser: [http://127.0.0.1:8001/docs](http://127.0.0.1:8001/docs)
+Open in browser: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ---
 
@@ -60,6 +60,7 @@ GET /
 
 ---
 
+![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2021-12-55.png)
 ### 👤 Users
 
 #### ➕ Create User
