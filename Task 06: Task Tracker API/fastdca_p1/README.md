@@ -3,8 +3,6 @@
 
 A beginner-friendly, in-memory **Task Tracker API** using `FastAPI`, where you can create users, manage tasks, and update their status.
 
-![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2020-55-11.png)
-
 ---
 
 ## 📦 Features
@@ -80,8 +78,11 @@ POST /users/
 ```
 ![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2020-54-02.png)
 
-**Request 3:**
+**Detail 3:**
 
+![Screenshot](https://github.com/HadiqaGohar/Q4-Exploring-Generative-AI/raw/main/Task%2006%3A%20Task%20Tracker%20API/fastdca_p1/Screenshot%20from%202025-05-12%2020-55-11.png)
+
+**Request 3:**
 
 ```json
 {
