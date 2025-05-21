@@ -1,5 +1,4 @@
-
-## 🧠 Task 07: Understanding Agentic AI Concepts
+# 🧠 Task 07: Understanding Agentic AI Concepts
 
 Link to code: [01\_ai\_agents\_first](https://github.com/panaversity/learn-agentic-ai/tree/main/01_ai_agents_first)
 
